@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Logo" class="logo">
+        <h1>Tic Tac Toe </h1>
+    </header>
+
+    <div class="game-board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <h2 id="game-status">Player X's turn</h2>
+    <button id="reset-btn">Reset Game</button>
+    <div id="loader" class="loader-container">
+        <div class="spinner"></div>
+    </div>
+    
+
+    <footer>
+        <h3><strong><p>Developed by Sumanshu Jindal</p></strong></h3>
+        <a href="#" target="_blank">Visit my portfolio</a>
+    </footer>
+
+    <!-- Confetti canvas -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="tic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.17/dist/index.min.js"></script>
+</body>
+</html>
