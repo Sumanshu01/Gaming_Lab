@@ -1,4 +1,4 @@
-Tic Tac Toe Game
+<h1>Tic Tac Toe Game</h1>
 
 This project is a simple yet engaging Tic Tac Toe game built using HTML, CSS, and JavaScript. The game allows two players, X and O, to take turns marking cells on a 3x3 grid, with the objective of being the first to align three marks in a row, either horizontally, vertically, or diagonally. The game tracks player moves in real time and displays whose turn it is, offering an interactive and enjoyable experience for players.
 
